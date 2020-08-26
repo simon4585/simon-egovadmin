@@ -1,0 +1,10 @@
+---
+applications:
+- name: simon-egovadmin
+  memory: 512M
+  host: simon-egovadmin
+  domain: paas-ta.org
+  services:
+  - simon-egov-db
+  instances: 1
+  disk_quota: 512M
